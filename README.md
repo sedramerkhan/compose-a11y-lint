@@ -37,7 +37,7 @@ dependencies {
 }
 ```
 
-Releases and build status: https://jitpack.io/#sedramerkhan/AccessibilityChecker
+Releases and build status: https://jitpack.io/#sedramerkhan/compose-a11y-lint
 
 The library contains only Lint rules. It adds no code and no resources to your app.
 

@@ -1189,7 +1189,7 @@ artifact (`a11ylint`), the version (`0.1.0`), the Android namespace
 **How it works.** JitPack builds the library from the GitHub repository when a git tag is pushed.
 `jitpack.yml` selects JDK 17 and builds only `:lint-library:publishToMavenLocal`, so the sample
 app and the tests are not part of a release build. `gradlew` was marked executable in git, since
-JitPack builds on Linux. Page and build logs: https://jitpack.io/#sedramerkhan/AccessibilityChecker
+JitPack builds on Linux. Page and build logs: https://jitpack.io/#sedramerkhan/compose-a11y-lint
 
 **Alternatives considered.**
 - Maven Central (`io.github.sedramerkhan:a11ylint`): no extra repository for users, but it needs
@@ -1198,6 +1198,13 @@ JitPack builds on Linux. Page and build logs: https://jitpack.io/#sedramerkhan/A
 
 **Not changed.** `DEV_APP_RESULTS.md` keeps `org.svu.sedra:a11ylint:0.1.0`, because that is what
 the development app runs actually used.
+
+**Repository renamed (Sedra, 2026-11-10).** The GitHub repository was renamed from
+`AccessibilityChecker` to `compose-a11y-lint`, so it matches the Gradle project name and the Lint
+vendor identifier that users see in every warning ("from compose-a11y-lint"). The JitPack links
+and the registry's `feedbackUrl` (now the GitHub issues page) were updated. The Maven coordinates
+should stay `com.github.sedramerkhan:a11ylint`; confirm this on JitPack after the first tagged
+build. The sample app's theme names and the local folder name were left as they are.
 
 ### The build overhead run no longer includes compiling the rules
 

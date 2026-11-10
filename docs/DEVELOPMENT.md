@@ -108,7 +108,7 @@ the difference it is measuring, and the number is then not worth quoting. See `D
 ## Publishing
 
 The library is published through JitPack as `com.github.sedramerkhan:a11ylint`
-(https://jitpack.io/#sedramerkhan/AccessibilityChecker). JitPack builds a release when a git tag
+(https://jitpack.io/#sedramerkhan/compose-a11y-lint). JitPack builds a release when a git tag
 is pushed, using `jitpack.yml`:
 
 ```bash

@@ -117,7 +117,7 @@ evaluation corpus (15 to 30 apps), which has not been run yet.
   stated scope limit, not an untested risk.
 - **Distribution:** the rules are packaged as an Android library (AAR) and published through
   JitPack as `com.github.sedramerkhan:a11ylint:0.1.0`
-  (https://jitpack.io/#sedramerkhan/AccessibilityChecker). Not public yet: the repository will be
+  (https://jitpack.io/#sedramerkhan/compose-a11y-lint). Not public yet: the repository will be
   made public and tagged `0.1.0` after checking with the supervisor, right before the evaluation,
   so the evaluated version is fixed.
 - **Output formats:** HTML, XML, SARIF and plain text from Lint, plus a JSON export for Phase 3 and

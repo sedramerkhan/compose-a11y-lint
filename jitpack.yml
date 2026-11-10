@@ -1,4 +1,4 @@
-# JitPack build: https://jitpack.io/#sedramerkhan/AccessibilityChecker
+# JitPack build: https://jitpack.io/#sedramerkhan/compose-a11y-lint
 jdk:
   - openjdk17
 install:

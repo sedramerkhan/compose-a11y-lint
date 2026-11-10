@@ -14,6 +14,6 @@ class ComposeA11yIssueRegistry : IssueRegistry() {
     override val vendor: Vendor = Vendor(
         vendorName = "Compose A11y Lint (SVU thesis)",
         identifier = "compose-a11y-lint",
-        feedbackUrl = "https://github.com/sedramerkhan/AccessibilityChecker/issues",
+        feedbackUrl = "https://github.com/sedramerkhan/compose-a11y-lint/issues",
     )
 }
